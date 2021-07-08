@@ -1,0 +1,56 @@
+/*apply css properties to body tag */
+body {
+   position:absolute;
+   text-align: center;
+   background-color: gray;
+   justify-content: center;
+   cursor: pointer;
+   padding-left: 300px;
+
+}
+/*apply css property to container*/
+.container {
+    text-align: left;
+    background-color: beige;
+    height: 700px;
+    width: 700px;
+    align-items: center;
+    font-size: 20px;
+
+}
+/*apply css property to form*/
+form div {
+    margin: 30px;
+}
+/*apply css property to input tag*/
+form div input {
+    width: 250px;
+    height: 20px;
+}
+
+/*apply css properties to h1 tag */
+h1 {
+    text-decoration: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-left: 10%;
+    padding-top: 40px;
+}
+
+/*apply css properties to  button tag */
+button {
+    width: 90px;
+    height: 25px;
+    font-size: 15px;
+    color: gray;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+/*apply hover effect to button tag */
+button:hover {
+    border-color: dimgray;
+    border-radius: 5px;
+
+}

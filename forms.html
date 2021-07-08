@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Form</title>
+</head>
+<body>
+    <section class="container">
+    <form name="regform" method="post" onsubmit="return validate()">
+        <div>
+
+            <!--creating a heading using h1 tag-->
+
+            <h1>REGISTERATION FORM</h1>
+
+            <hr>
+            <!--Creating labels for firstname, lastname, email, and username-->
+        <div>
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="fname" minlength="8" maxlength="12" required><br>
+        </div>
+        <div>
+            <label for="lname">Last Name:</label><br>
+            <input type="text" name="lname" minlength="8" maxlength="12" required><br>
+        </div>
+        <div>
+            <label for="mail">E-mail:</label><br>
+            <input type="text" name="email" required><br>
+        </div>
+        <div>
+            <label for="uname">Username:</label><br>
+            <input type="text" name="uname" minlength="7" maxlength="7" required><br>
+        </div>
+            <!--creating a password label and a submit button-->
+        <div>
+            <input type="password" name="password" placeholder="password"><br> 
+            <input type="password" name="password" placeholder="Re-type password"> <br>
+        </div>
+            <button type="submit" >Submit</button>
+
+
+
+        </div>
+
+    </form>
+    </section>
+
+
+    <script src="./forms.js"></script>
+</body>
+</html>

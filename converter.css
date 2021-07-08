@@ -1,0 +1,43 @@
+body {
+    background-color: darkorchid;
+    display: grid;
+	cursor: pointer;
+    padding: 20px;
+    height: 100%;
+    place-content: center;	    
+}
+
+div {
+    background-color: cornsilk;
+    height: 500px;
+    width: 600px;
+    color:slategray;
+    padding: 25px;
+}
+
+h1 {
+    padding: 10px 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 50px;
+}
+
+ button {
+     background-color: slateblue;
+     color: whitesmoke;
+    font-size: 15px;
+    padding: 5px 3px;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+label {
+    color: rebeccapurple;
+     
+}
