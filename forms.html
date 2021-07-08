@@ -28,16 +28,16 @@
         </div>
         <div>
             <label for="mail">E-mail:</label><br>
-            <input type="text" name="email" required><br>
+            <input type="email" name="email" required><br>
         </div>
         <div>
             <label for="uname">Username:</label><br>
-            <input type="text" name="uname" minlength="7" maxlength="7" required><br>
+            <input type="text" name="uname" minlength="6" maxlength="8" pattern="[A-Za-z]{4,5}[!@#$%^&*_+]{1}[0-9]{1,2}" required><br>
         </div>
             <!--creating a password label and a submit button-->
         <div>
-            <input type="password" name="password" placeholder="password"><br> 
-            <input type="password" name="password" placeholder="Re-type password"> <br>
+            <input type="password" name="password" placeholder="password" required><br> 
+            <input type="password" name="password" placeholder="Re-type password" required> <br>
         </div>
             <button type="submit" >Submit</button>
 
